@@ -3,7 +3,6 @@ const validator = require('validator');
 const bcript = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const Task = require('./task');
-require('dotenv').config();
 
 const userSchema = new mongoose.Schema({
     name: {
